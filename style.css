@@ -1,0 +1,82 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc0cb;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    
+}
+
+#profilePicture{
+    border-radius: 40%;
+    border: 8px solid aqua;
+    margin: 2.5rem;
+}
+
+.bday  h2, h3{
+    text-align: center;
+    background-color:blue;
+    border: 3px solid aqua;
+    border-radius:  1.5rem;
+    width: 200px;
+    color: white;
+    padding: .5rem;
+    margin: .5rem;
+}
+.gift{
+    text-align: center;
+    font-size: 30px;
+    
+}
+body #giftcover, #giftcover1, #giftcover2, #giftcover3{
+    background-image: url("giftcover.jpg");
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    border: 4px solid white;
+    border-radius: 1.0rem;
+    background-size: cover;
+}
+
+#giftp1{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+#giftp2{
+    margin-top: 0;
+}
+
+#giftcover:hover{
+    background-image: url("giphy.gif");
+}
+
+#giftcover1:hover{
+    background-image: url("receba.gif");
+    height: 500px;
+    width: 300px;
+}
+
+
+#giftcover2:hover{
+    background-image: url("noob.gif");
+}
+
+
+#giftcover3:hover{
+    background-image: url("bestbrother.gif");
+    height: 400px;
+    width: 500px;
+}
+
+#footer{
+    color: white;
+    margin-top: 100px;
+}
+
+#footer a:hover{
+    color: white;
+}
